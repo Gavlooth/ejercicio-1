@@ -30,7 +30,7 @@
   :sass {:src "resources/sass"
          :output-directory "resources/public/css"}
 
-  :hooks [leiningen.sass]
+  ;:hooks [leiningen.sass]
   :aliases {"js-watch" ["run" "-m" "shadow.cljs.devtools.cli" "watch" "app"]}
   :target-path "target/%s"
   :repl-options {:port 10002}
