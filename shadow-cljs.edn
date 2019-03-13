@@ -10,7 +10,7 @@
                  :closure-warnings {:global-this :off}}
 
                 :modules
-                {:main {:entries [mortgage-calculator.app]}}
+                {:main {:entries [ejercicio.app]}}
                 :devtools
                 {;:after-load  mortgage-calculator.core/start
                  :http-root   "resources/public"
